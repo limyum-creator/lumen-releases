@@ -6,7 +6,7 @@ Mac 本地视觉素材与创作工作台：整理图片、视频和音频，管�
 
 ## 下载内测版
 
-[下载 0.7.36（21.26）](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.7.36) · [全部版本](https://github.com/limyum-creator/lumen-releases/releases)
+[下载 0.7.37（21.27）](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.7.37) · [全部版本](https://github.com/limyum-creator/lumen-releases/releases)
 
 - 支持 Apple Silicon Mac（M 系列芯片），macOS 14 或更新系统。
 - 当前为免费内测，无需激活码。Windows 与 Intel Mac 暂无安装包。
@@ -19,7 +19,7 @@ Mac 本地视觉素材与创作工作台：整理图片、视频和音频，管�
 3. 首次使用选择空文件夹新建图库，或打开已有光栈图库。
 4. 更新前退出光栈，用新应用替换旧应用；保留原图库和设置。重要制作资料建议先备份。
 
-软件内“检查更新”按钮目前为预留入口。现阶段请从本页下载新版后替换安装。
+每次启动会自动检查更新，仅有新版时提醒；也可在设置 → 通用点击“检查更新”。下载后请退出旧版并替换安装。
 
 ## 使用指南
 
