@@ -6,7 +6,7 @@ Mac 本地视觉素材与创作工作台：整理图片、视频和音频，管�
 
 ## 下载内测版
 
-[下载 0.7.37（21.27）](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.7.37) · [全部版本](https://github.com/limyum-creator/lumen-releases/releases)
+[下载 0.8.0（22.0）](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.0) · [全部版本](https://github.com/limyum-creator/lumen-releases/releases)
 
 - 支持 Apple Silicon Mac（M 系列芯片），macOS 14 或更新系统。
 - 当前为免费内测，无需激活码。Windows 与 Intel Mac 暂无安装包。
