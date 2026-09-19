@@ -1,7 +1,7 @@
 # 光栈 Lumen
 
 <p align="center">
-  <b>好不容易跑出的那张神图，别再埋没在文件夹深处。</b><br>
+  <b>让灵感随时延续，让创作秩序井然。</b><br>
   专为 Apple Silicon Mac 打造的 AI 视觉创作与资产管理工作台。
 </p>
 
