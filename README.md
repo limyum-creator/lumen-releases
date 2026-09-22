@@ -6,14 +6,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.2"><img src="https://img.shields.io/badge/Release-v0.8.2-orange?style=flat-square" alt="Release"></a>
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3"><img src="https://img.shields.io/badge/Release-v0.8.3-orange?style=flat-square" alt="Release"></a>
   <img src="https://img.shields.io/badge/Platform-macOS%2014%2B%20(Apple%20Silicon)-blue?style=flat-square" alt="Platform">
   <img src="https://img.shields.io/badge/Engine-ComfyUI%20%7C%20RunningHub-green?style=flat-square" alt="Engine">
   <img src="https://img.shields.io/badge/Extension-MCP%20Agent-purple?style=flat-square" alt="MCP">
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.2">📦 立即下载 DMG</a> · 
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3">📦 立即下载 DMG</a> · 
   <a href="QUICKSTART.md">⚡ 3 分钟快速上手</a> · 
   <a href="Agent连接指南.txt">🤖 AI / Agent 接入指南</a> · 
   <a href="https://github.com/limyum-creator/lumen-releases/issues">💬 问题与反馈</a>
@@ -69,7 +69,7 @@
 - **系统**：macOS 14 (Sonoma) 或更高版本
 
 ### 安装步骤
-1. 前往 **[Releases 页面](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.2)** 下载最新的 `.dmg` 安装包；
+1. 前往 **[Releases 页面](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3)** 下载最新的 `.dmg` 安装包；
 2. 打开安装包，将 **光栈.app** 拖入 **应用程序（Applications）** 目录；
 3. 首次启动若提示“无法打开，因为无法验证开发者”，前往 **系统设置 → 隐私与安全性**，点击 **仍要打开** 即可。
 
