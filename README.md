@@ -1,84 +1,63 @@
-# 光栈 Lumen
-
 <p align="center">
-  <b>让灵感随时延续，让创作秩序井然。</b><br>
-  专为 Apple Silicon Mac 打造的 AI 视觉创作与资产管理工作台。
+  <img src="assets/lumen-mark.png" width="88" alt="光栈四芒星标志">
+</p>
+<h1 align="center">光栈 · Lumen</h1>
+<p align="center">
+  <strong>让灵感随时延续，让创作秩序井然。</strong><br>
+  一座为 Apple Silicon Mac 打造的本地视觉图库，也是一张能继续创作的项目画布。
+</p>
+<p align="center">
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.5"><img src="https://img.shields.io/badge/Beta-v0.8.5%20(22.7)-3C7FD8?style=flat-square" alt="内测版 0.8.5，构建 22.7"></a>
+  <img src="https://img.shields.io/badge/macOS-14%2B%20%C2%B7%20Apple%20Silicon-526C85?style=flat-square" alt="macOS 14 或更新版本，仅支持 Apple Silicon">
+  <img src="https://img.shields.io/badge/Local--first-No%20activation-3A9C80?style=flat-square" alt="本地优先，无需激活">
+</p>
+<p align="center">
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.5"><strong>⬇️ 下载 0.8.5 内测版</strong></a>
+  &nbsp;·&nbsp; <a href="QUICKSTART.md">快速上手</a>
+  &nbsp;·&nbsp; <a href="Agent连接指南.txt">Agent 接入</a>
+  &nbsp;·&nbsp; <a href="https://github.com/limyum-creator/lumen-releases/issues">反馈问题</a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3"><img src="https://img.shields.io/badge/Release-v0.8.3-orange?style=flat-square" alt="Release"></a>
-  <img src="https://img.shields.io/badge/Platform-macOS%2014%2B%20(Apple%20Silicon)-blue?style=flat-square" alt="Platform">
-  <img src="https://img.shields.io/badge/Engine-ComfyUI%20%7C%20RunningHub-green?style=flat-square" alt="Engine">
-  <img src="https://img.shields.io/badge/Extension-MCP%20Agent-purple?style=flat-square" alt="MCP">
-</p>
+<p align="center"><img src="assets/lumen-flow.svg" width="100%" alt="产品流程示意：收集灵感、画布编排、继续创作"></p>
 
-<p align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3">📦 立即下载 DMG</a> · 
-  <a href="QUICKSTART.md">⚡ 3 分钟快速上手</a> · 
-  <a href="Agent连接指南.txt">🤖 AI / Agent 接入指南</a> · 
-  <a href="https://github.com/limyum-creator/lumen-releases/issues">💬 问题与反馈</a>
-</p>
+## 从素材到成果，留在同一个工作台
 
----
+| 收集与查找 | 画布与叙事 | 工作流与版本 |
+| :-- | :-- | :-- |
+| 图片、视频与音频放进本地图库；监听文件夹自动收录，保留素材来源。空格预览、作品版本与双图对比让回看更轻松。 | 在项目 → 单集 → 单元中组织创作；把参考、提示词、便签和产出卡摆到画布上，按需要连线与编排分镜。 | 可选连接 ComfyUI 或 RunningHub，按产出卡配置工作流；结果回收入库，关联提示词、参数与版本，方便继续探索。 |
 
-## 为什么需要光栈？
+### 看一眼画布
 
-做 AI 图像与视频创作时，你是否也经常遇到这些烦恼：
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/canvas-sample-dark.jpg">
+  <img src="assets/canvas-sample-light.jpg" width="100%" alt="光栈项目画布示意：参考卡、提示词、参数卡和产出卡相互连接">
+</picture>
 
-- **灵感四散**：收集的参考图存了一堆，真正想用时却翻遍桌面和访达；
-- **版本丢失**：跑出了一张惊艳的结果，隔几天想微调，却再也找不到当时的 Prompt、Seed 和工作流参数；
-- **窗口割裂**：浏览器开着 ComfyUI，备忘录记着提示词，访达堆满各版本的测试图，来回切换极其低效。
+<sub>画布示意使用隔离 SFW 合成数据和原生组件宿主缓存绘制；不是正式图库、实际生成结果或屏幕录制。可切换 [浅色](assets/canvas-sample-light.jpg) / [深色](assets/canvas-sample-dark.jpg) 查看静态样例。玻璃效果、动效与实体触控板手感仍须以实际设备体验为准。</sub>
 
-**光栈（Lumen）把创作的全链路收拢在一个优雅顺手的 Mac 本地工作台里：**  
-从**灵感收集**、**无限画布推演**，到**直连工作流生成**与**版本溯源**——下一次打开，随时接着上一次的想法继续探索。
+## 为什么用光栈
 
----
+- **作品有上下文**：同一作品的不同版本并存，提示词、种子及工作流参数随版本可回看；可固定满意的版本，不覆盖此前尝试。
+- **创作有空间**：画布里的参考素材、提示词和工作流产出直观关联；项目、单集和单元各司其职，支持延续长线叙事。
+- **资产在自己手里**：图库保存在你指定的本地文件夹。浏览、整理无需连接生成后端；只有选择云端生成等联网功能时才会与相应服务通信。
+- **可与 Agent 协作**：随包提供 MCP 接入指南；连接后可让具备本地权限的助手读取与整理项目内容，无需另外安装 Python 运行环境。
 
-## 核心亮点
+## 下载与安装
 
-### 🖼️ 原生极速图库 · 找回每一张图的“来龙去脉”
-- **全格式混排与空格预览**：图片原比例呈现，视频、音频同库流畅播放；按空格键即刻全屏沉浸预览。
-- **参数全生命周期还原**：随时调取该版本的正负提示词、种子、模型及采样参数。英文提示词内置中文双语对照，原样复制绝不串味。
-- **多版本平铺与同屏对比**：同一个作品允许容纳多次尝试迭代。把最满意的设为封面，其他版本完整保留，支持两张图并排放大比对细节。
-- **智能监听文件夹**：只需把输出目录或灵感文件夹加入监听，新素材自动同步收录进库，保留完整来源。
+**当前公开内测版：0.8.5（22.7）** · macOS 14+ · Apple Silicon。免费内测，无需激活码。
 
-### 🎨 无限创作画布 · 像导演一样摆开你的分镜
-- **白板级自由排布**：参考图、提示词卡、工作流参数、便签、音视频均可自由拖拽、缩放、成组整理。
-- **结构化叙事组织**：专为连续创作设计的架构：**项目 → 单集 → 单元**。公共角色与场景常驻共享层，各单元独立维护分镜、镜头时长、台词与镜头提示词。
-- **所见即所得的节点关联**：将参考图与提示词直接连线接入产出卡，直观查看每一张图由哪些元素孕育而来。
+1. 从 [v0.8.5 Release](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.5) 下载 **[Lumen-0.8.5-arm64.dmg](https://github.com/limyum-creator/lumen-releases/releases/download/v0.8.5/Lumen-0.8.5-arm64.dmg)** 和 [SHA-256 校验文件](https://github.com/limyum-creator/lumen-releases/releases/download/v0.8.5/Lumen-0.8.5-arm64.sha256)。GitHub 自动提供的 “Source code” 压缩包**不是**安装包。
+2. 核对校验值后，退出旧版，打开 DMG，把 **光栈.app** 拖入“应用程序”；升级不会主动覆盖原图库和设置。
+3. 第一次打开选择新建或打开现有图库。ComfyUI、RunningHub、Agent 都是可选连接，所需模型、节点、账号及额度由你自行准备。
 
-### ⚡ 双引擎驱动 · 直连 ComfyUI 与 RunningHub
-- **本地 ComfyUI 协同**：无缝连接本地 ComfyUI 服务，独立配置产出卡的工作流与模型参数。常调参数可单独展开悬挂在手边。
-- **RunningHub 云端无缝生成**：粘贴工作流链接或 ID 即可直接调用云端算力；生成完毕自动将图片/视频回收至本地图库，支持 ZIP 结果包自动解压归档。
-- **版本固定与受控执行**：产出卡可跟随最新跑图，也可一键“固定此版本”。每次生成均记录真实 Seed，复现不抓瞎。
+```sh
+shasum -a 256 -c Lumen-0.8.5-arm64.sha256
+```
 
-### 🤖 现代 Agent 协作 · 原生支持 MCP 协议
-- 内置 MCP（Model Context Protocol）服务，无需繁琐配置 Python 环境。
-- 导出接入文档，即可让 OpenClaw、Claude Desktop 等具备本地能力的 AI 助手读取你的项目资产、帮你整理单集分镜、推敲润色提示词。
+> **关于首次打开**：对外包目前未经过 Apple 公证。若 macOS 阻止启动，可在“系统设置 → 隐私与安全性”中确认打开；请只从本仓库 Release 下载并核对 SHA-256。此版本只支持 Apple Silicon，不提供 Intel 或 Windows 安装包。
 
-### 🔒 100% 本地优先 · 隐私与数据全掌控
-- **目录即图库**：所有媒体资产、版本关联与项目数据全部存放在你指定的本地目录中。无需联网也能随心浏览和整理。
-- **凭据安全隔离**：云端 API 凭证均安全托管于 macOS 原生钥匙串（Keychain）。
+## 上手与反馈
 
----
-
-## 快速下载与安装
-
-### 系统要求
-- **硬件**：配备 Apple Silicon 芯片的 Mac（M1 / M2 / M3 / M4 系列）
-- **系统**：macOS 14 (Sonoma) 或更高版本
-
-### 安装步骤
-1. 前往 **[Releases 页面](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.3)** 下载最新的 `.dmg` 安装包；
-2. 打开安装包，将 **光栈.app** 拖入 **应用程序（Applications）** 目录；
-3. 首次启动若提示“无法打开，因为无法验证开发者”，前往 **系统设置 → 隐私与安全性**，点击 **仍要打开** 即可。
-
-> 💡 更多图文指引与使用秘诀，请参阅 **[3 分钟快速上手指南](QUICKSTART.md)**。
-
----
-
-## 创作生态与规划说明
-
-- **算力与环境**：光栈专注于提供一流的工作台体验，ComfyUI 依赖的本地模型/节点环境，或 RunningHub 账号额度请按需自行准备。
-- **数据备份**：如需备份或迁移图库，只需完整复制你的图库文件夹（请确保保留其中的隐藏目录 `.lumen`，这里记录了所有版本关联与项目元数据）。
-- **持续进化中**：我们正高频迭代分镜体验、节点交互与资产流转。有任何想法或遇到 Bug，欢迎在 [Issues](https://github.com/limyum-creator/lumen-releases/issues) 随时交流！
+- [三分钟快速上手](QUICKSTART.md) · [完整使用指南](光栈快速上手.txt) · [Agent 连接指南](Agent连接指南.txt)
+- 备份或迁移图库时，请完整复制图库目录，**包括隐藏的 `.lumen` 文件夹**；它保存项目与版本关系。先退出应用再备份。
+- 想了解本次新增内容与已知验收边界，请看 [0.8.5 发布记录](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.8.5)。真实大型工作流、其他设备与触控板观感尚未逐一实测，欢迎到 [Issues](https://github.com/limyum-creator/lumen-releases/issues) 反馈。

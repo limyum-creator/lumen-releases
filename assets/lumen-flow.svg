@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">光栈创作流程示意</title>
+  <desc id="desc">从收集图像和版本，到画布编排，再到连接工作流并保留创作轨迹。</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#14253B"/><stop offset=".52" stop-color="#192A43"/><stop offset="1" stop-color="#18333B"/></linearGradient>
+    <linearGradient id="glow" x2="1" y2="1"><stop stop-color="#95C6FF"/><stop offset=".5" stop-color="#E4F8FF"/><stop offset="1" stop-color="#A4E8D4"/></linearGradient>
+    <linearGradient id="image" x2="1" y2="1"><stop stop-color="#9CB9E6"/><stop offset="1" stop-color="#80C8B9"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="28"/></filter>
+  </defs>
+  <rect width="1200" height="340" rx="32" fill="url(#background)"/>
+  <ellipse cx="220" cy="312" rx="215" ry="88" fill="#508AD8" opacity=".18" filter="url(#soft)"/>
+  <ellipse cx="985" cy="26" rx="200" ry="95" fill="#56C0A5" opacity=".16" filter="url(#soft)"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Noto Sans CJK SC',sans-serif">
+    <path d="M62 55 Q69 73 85 79 Q69 86 62 104 Q56 86 39 79 Q56 73 62 55Z" fill="url(#glow)"/>
+    <text x="104" y="84" fill="#E9F4FF" font-size="21" font-weight="700" letter-spacing="2">光栈 · LUMEN</text>
+    <text x="1124" y="82" fill="#AAC4D7" font-size="14" text-anchor="end">从灵感到下一次创作</text>
+    <path d="M365 217H410 M768 217H813" stroke="#B4DCEC" opacity=".68" stroke-width="2" stroke-linecap="round"/>
+    <path d="m402 211 8 6-8 6 M805 211l8 6-8 6" fill="none" stroke="#B4DCEC" stroke-width="2"/>
+    <g fill="#FFFFFF" fill-opacity=".09" stroke="#D8E9F4" stroke-opacity=".24">
+      <rect x="42" y="123" width="323" height="180" rx="22"/>
+      <rect x="411" y="123" width="357" height="180" rx="22"/>
+      <rect x="814" y="123" width="344" height="180" rx="22"/>
+    </g>
+    <g fill="#B7D5E8" font-size="12" font-weight="700" letter-spacing="1"><text x="66" y="156">01 / COLLECT</text><text x="436" y="156">02 / COMPOSE</text><text x="840" y="156">03 / CONTINUE</text></g>
+    <g fill="#F3F8FC" font-size="24" font-weight="700"><text x="66" y="193">收集灵感</text><text x="436" y="193">画布编排</text><text x="840" y="193">继续创作</text></g>
+    <g fill="#C3D8E6" font-size="14"><text x="66" y="279">素材 · 作品 · 版本</text><text x="436" y="279">参考 · 提示词 · 分镜</text><text x="840" y="279">工作流 · 结果 · 溯源</text></g>
+    <g stroke="#FFFFFF" stroke-opacity=".52" stroke-width="2">
+      <rect x="256" y="181" width="42" height="46" rx="7" fill="#7FB8D8"/><rect x="276" y="194" width="42" height="46" rx="7" fill="url(#image)"/>
+      <path d="M634 215h44 M697 215h19" fill="none" stroke="#91E0D6"/><rect x="606" y="199" width="34" height="32" rx="7" fill="#85A5E0"/><rect x="678" y="199" width="30" height="32" rx="7" fill="#71C3BC"/><rect x="718" y="199" width="29" height="32" rx="7" fill="#9AB6E5"/>
+      <rect x="1047" y="183" width="45" height="46" rx="7" fill="#83CBB9"/><path d="m1056 211 9-9 8 7 8-12 7 6" fill="none" stroke="#F8FFFF"/><circle cx="1107" cy="209" r="13" fill="#77BDD5"/><path d="m1101 209 4 4 8-9" fill="none" stroke="#F8FFFF" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
