@@ -27,10 +27,10 @@
 
 <br>
 
-<a href="assets/lumen-gallery-light.jpg">
+<a href="assets/lumen-gallery-light.png">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-gallery-dark.jpg">
-    <img src="assets/lumen-gallery-light.jpg" width="100%" alt="光栈图库完整窗口：在喜欢中随机浏览，横竖构图自然混排。">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-gallery-dark.png">
+    <img src="assets/lumen-gallery-light.png" width="100%" alt="光栈图库完整窗口：在喜欢中随机浏览，横竖构图自然混排。">
   </picture>
 </a>
 <p align="center"><sub>实机截图，可点击放大。下方版本展示使用真实界面的局部裁切与层叠排版。</sub></p>
@@ -55,10 +55,10 @@
 - **好结果，有迹可循。** 查看版本中记录的提示词、种子与生成参数，不再靠文件名猜。
 - **少搬运，多创作。** 把常用目录加入监听，新素材自动收录，来源文件照样保留。
 
-<a href="assets/lumen-versions-light.jpg">
+<a href="assets/lumen-versions-light.png">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-versions-dark.jpg">
-    <img src="assets/lumen-versions-light.jpg" width="100%" alt="同一猫咪作品的五个版本：单组快速预览在后，漫画与油画版本的并排比较在前。两张真实界面裁切组合展示。">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-versions-dark.png">
+    <img src="assets/lumen-versions-light.png" width="100%" alt="同一猫咪作品的五个版本：单组快速预览在后，漫画与油画版本的并排比较在前。两张真实界面裁切组合展示。">
   </picture>
 </a>
 
@@ -66,10 +66,10 @@
 
 参考图摆在眼前，提示词写在旁边，工作流参数留在手边。把它们连到产出卡上，你能看见一张图是怎么慢慢成形的。
 
-<a href="assets/lumen-canvas-light.jpg">
+<a href="assets/lumen-canvas-light.png">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-canvas-dark.jpg">
-    <img src="assets/lumen-canvas-light.jpg" width="100%" alt="Uno 发布会项目的真实画布完整窗口：提示词、两张猫咪参考图和放大倍率参数连接到视频产出卡。">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-canvas-dark.png">
+    <img src="assets/lumen-canvas-light.png" width="100%" alt="Uno 发布会项目的真实画布完整窗口：提示词、两张猫咪参考图和放大倍率参数连接到视频产出卡。">
   </picture>
 </a>
 
