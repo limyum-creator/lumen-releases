@@ -1,4 +1,4 @@
-<a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1">
+<a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/lumen-cover-dark.png">
     <img src="assets/lumen-cover-light.png" width="100%" alt="光栈 Lumen — 灵感有处安放，创作随时继续。">
@@ -11,13 +11,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1"><img src="https://img.shields.io/badge/Beta-0.10.1-4088CE?style=flat-square" alt="当前内测版 0.10.1"></a>
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2"><img src="https://img.shields.io/badge/Beta-0.10.2-4088CE?style=flat-square" alt="当前内测版 0.10.2"></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-64748B?style=flat-square&amp;logo=apple&amp;logoColor=white" alt="macOS 14 或更新版本">
   <img src="https://img.shields.io/badge/Chip-Apple%20Silicon-64748B?style=flat-square" alt="仅支持 Apple Silicon">
 </p>
 
 <h3 align="center">
-  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1">📦 下载 0.10.1 内测版</a>
+  <a href="https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2">📦 下载 0.10.2 内测版</a>
 </h3>
 <p align="center">
   <a href="QUICKSTART.md">⚡ 快速上手</a>
@@ -41,7 +41,7 @@
 
 **光栈想把这些零散的小事接起来。** 收好素材，在画布上铺开想法，连接工作流继续创作，再把结果和来龙去脉一起留下。下次打开，不必从头回忆。
 
-> ✨ **0.10.1 已上线** · 分类与文件夹自由整理，短片直接进入主画布；减少同步等待和 MCP 往返，改善 P 加载、目录返回与选中图位置保持，连续滚动逐渐加速。[更新详情](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1)
+> ✨ **0.10.2 已上线** · 修复摘要展开后画廊留下空区、收起后无法恢复的问题；图片按序紧密排列，收起摘要恢复正常布局，浏览位置随重排平稳衔接。[更新详情](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2)
 
 <br>
 
@@ -103,11 +103,11 @@
 
 ## 🚀 三分钟，开始用
 
-**当前版本：0.10.1（24.1）** · Apple Silicon · macOS 14+ · 免费内测。
+**当前版本：0.10.2（24.2）** · Apple Silicon · macOS 14+ · 免费内测。
 
 **① 下载并安装**
 
-从 [Release 页面](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1) 下载 **[Lumen-0.10.1-arm64.dmg](https://github.com/limyum-creator/lumen-releases/releases/download/v0.10.1/Lumen-0.10.1-arm64.dmg)**，打开后把「光栈.app」拖进「应用程序」。升级前先退出旧版，原图库和设置保留。
+从 [Release 页面](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2) 下载 **[Lumen-0.10.2-arm64.dmg](https://github.com/limyum-creator/lumen-releases/releases/download/v0.10.2/Lumen-0.10.2-arm64.dmg)**，打开后把「光栈.app」拖进「应用程序」。升级前先退出旧版，原图库和设置保留。
 
 **② 给素材安个家**
 
@@ -122,10 +122,10 @@
 <details>
 <summary>🔎 如何核对下载文件？</summary>
 
-把 [SHA-256 校验文件](https://github.com/limyum-creator/lumen-releases/releases/download/v0.10.1/Lumen-0.10.1-arm64.sha256) 和 DMG 放在同一目录，在该目录运行：
+把 [SHA-256 校验文件](https://github.com/limyum-creator/lumen-releases/releases/download/v0.10.2/Lumen-0.10.2-arm64.sha256) 和 DMG 放在同一目录，在该目录运行：
 
 ```sh
-shasum -a 256 -c Lumen-0.10.1-arm64.sha256
+shasum -a 256 -c Lumen-0.10.2-arm64.sha256
 ```
 
 显示 `OK` 即表示文件与发布时的校验值一致。
@@ -147,7 +147,7 @@ shasum -a 256 -c Lumen-0.10.1-arm64.sha256
 
 光栈还在内测。哪一步卡手、哪个按钮找不到，或是「要是能这样就好了」——都欢迎[开个 Issue 聊聊](https://github.com/limyum-creator/lumen-releases/issues)。
 
-报问题时，带上版本号、macOS 版本和复现步骤会很有帮助；附图前记得遮住私密素材、提示词和密钥。真实大型工作流、其他设备和触控板手感还需要更多使用反馈，已知验证范围写在[发布记录](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.1)里。
+报问题时，带上版本号、macOS 版本和复现步骤会很有帮助；附图前记得遮住私密素材、提示词和密钥。真实大型工作流、其他设备和触控板手感还需要更多使用反馈，已知验证范围写在[发布记录](https://github.com/limyum-creator/lumen-releases/releases/tag/v0.10.2)里。
 
 如果光栈刚好帮你省下了一点找图、整理的时间，也欢迎点一颗 **Star**，让更多创作者找到它。🌟
 
